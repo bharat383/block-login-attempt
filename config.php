@@ -1,0 +1,14 @@
+<?php
+@session_start();
+
+//SET MAXIMUM ALLOWED FAILED LOGIN ATTEMPT
+define("MAX_LOGIN_ATTEMPT",3);
+
+//BLOCK BY IP ADDRESS
+define("BLOCK_IP",true);
+
+//BLOCK TIMEOUT IN MINUTES
+define("BLOCK_TIMEOUT",120);
+
+
+?>
